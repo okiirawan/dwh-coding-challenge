@@ -5,9 +5,12 @@ import os,json
 import numpy as np
 
 path_to_json = '/data/'
+#json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
+ # an empty list to store the data frames
 
+#dfs = {}
 frames = {}
-
+#for index, js in enumerate(json_files):
 for dirpath, dirs, files in os.walk(path_to_json):
   dfs = []
   subdir = os.path.basename(dirpath)
@@ -19,13 +22,13 @@ for dirpath, dirs, files in os.walk(path_to_json):
       dfs.append(json_data)
     df = pd.concat(dfs).sort_values('ts').reset_index(drop=True)
     frames[subdir] = df.fillna(method='ffill').replace('', np.nan)
-    
+#print(frames[dirpath])
 for key in frames:
   print("Dataframe from: "+key)
   print (frames[key])
   print ("\n")
 
-
+#and ('ts == df_account.max()['ts']')
 df_account = frames['accounts']
 df_account.to_csv(r'/result/account.txt', index=None, sep='\t', mode='a')
 
@@ -38,7 +41,8 @@ df_card.to_csv(r'/result/card.txt', index=None, sep='\t', mode='a')
 
 pdList = [df_account[['ts','account_id','card_id','savings_account_id']], df_saving[['ts','savings_account_id']], df_card[['ts','card_id']]]
 df_time = pd.concat(pdList).sort_values('ts').drop_duplicates(['ts']).reset_index(drop=True)
-#print(df_time)
+
+#result = frames['accounts'].groupby('account_id')[['card_id','address','email','account_id','name','phone_number','savings_account_id']]
 result_acc = pd.merge_asof(df_time,df_account,
                  on='ts',
                  by=['ts','account_id','card_id','savings_account_id'])
