@@ -1,3 +1,7 @@
-!result/
-!data/*/
+#!result/
+#!data/*/
+data/accounts/*
+data/cards/*
+data/saving_accounts/*
+result/*
 *.json
