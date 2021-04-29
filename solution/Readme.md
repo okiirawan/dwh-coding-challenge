@@ -4,7 +4,7 @@ For use this solution:
 git clone https://github.com/okiirawan/dwh-coding-challenge.git
 ```
 2. Put source directory where the script located
-3. Crete folder for result if you print it to a file
+3. Crete folder for result if you want to print it to a file
 ```
 mkdir result
 ```
