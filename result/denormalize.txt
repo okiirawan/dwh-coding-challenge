@@ -1,0 +1,80 @@
+ts	account_id	card_id	savings_account_id	address	email	name	phone_number	credit_used	card_number	monthly_limit	card_status	interest_rate_percent	balance	saving_account_status
+1577863800000	a1			New York	anthony@somebank.com	Anthony	12345678	0.0						
+1577865600000	a1			New York	anthony@somebank.com	Anthony	87654321	0.0						
+1577890800000	a1		sa1	New York	anthony@somebank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577894400000	a1		sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577926800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	0.0	ACTIVE
+1577955600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	15000.0	ACTIVE
+1578159000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	1.5	15000.0	ACTIVE
+1578159060000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578313800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	12000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578420000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	19000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578648600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1578654000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1579078800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	3.0	40000.0	ACTIVE
+1579078860000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	1.5	21000.0	ACTIVE
+1579163400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	PENDING	1.5	21000.0	ACTIVE
+1579298400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	1.5	21000.0	ACTIVE
+1579298460000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579361400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	37000.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579505400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	33000.0	ACTIVE
+ts	account_id	card_id	savings_account_id	address	email	name	phone_number	credit_used	card_number	monthly_limit	card_status	interest_rate_percent	balance	saving_account_status
+1577863800000	a1			New York	anthony@somebank.com	Anthony	12345678	0.0						
+1577865600000	a1			New York	anthony@somebank.com	Anthony	87654321	0.0						
+1577890800000	a1		sa1	New York	anthony@somebank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577894400000	a1		sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577926800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	0.0	ACTIVE
+1577955600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	15000.0	ACTIVE
+1578159000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	1.5	15000.0	ACTIVE
+1578159060000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578313800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	12000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578420000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	19000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578648600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1578654000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1579078800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	3.0	40000.0	ACTIVE
+1579078860000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	1.5	21000.0	ACTIVE
+1579163400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	PENDING	1.5	21000.0	ACTIVE
+1579298400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	1.5	21000.0	ACTIVE
+1579298460000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579361400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	37000.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579505400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	33000.0	ACTIVE
+ts	account_id	card_id	savings_account_id	address	email	name	phone_number	credit_used	card_number	monthly_limit	card_status	interest_rate_percent	balance	saving_account_status
+1577863800000	a1			New York	anthony@somebank.com	Anthony	12345678	0.0						
+1577865600000	a1			New York	anthony@somebank.com	Anthony	87654321	0.0						
+1577890800000	a1		sa1	New York	anthony@somebank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577894400000	a1		sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577926800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	0.0	ACTIVE
+1577955600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	15000.0	ACTIVE
+1578159000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	1.5	15000.0	ACTIVE
+1578159060000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578313800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	12000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578420000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	19000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578648600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1578654000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1579078800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	3.0	40000.0	ACTIVE
+1579078860000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	1.5	21000.0	ACTIVE
+1579163400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	PENDING	1.5	21000.0	ACTIVE
+1579298400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	1.5	21000.0	ACTIVE
+1579298460000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579361400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	37000.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579505400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	33000.0	ACTIVE
+ts	account_id	card_id	savings_account_id	address	email	name	phone_number	credit_used	card_number	monthly_limit	card_status	interest_rate_percent	balance	saving_account_status
+1577863800000	a1			New York	anthony@somebank.com	Anthony	12345678	0.0						
+1577865600000	a1			New York	anthony@somebank.com	Anthony	87654321	0.0						
+1577890800000	a1		sa1	New York	anthony@somebank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577894400000	a1		sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0				1.5	0.0	ACTIVE
+1577926800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	0.0	ACTIVE
+1577955600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	PENDING	1.5	15000.0	ACTIVE
+1578159000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	1.5	15000.0	ACTIVE
+1578159060000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578313800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	12000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578420000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	19000.0	11112222	30000.0	ACTIVE	3.0	15000.0	ACTIVE
+1578648600000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1578654000000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	ACTIVE	3.0	40000.0	ACTIVE
+1579078800000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	3.0	40000.0	ACTIVE
+1579078860000	a1	c1	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	11112222	30000.0	CLOSED	1.5	21000.0	ACTIVE
+1579163400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	PENDING	1.5	21000.0	ACTIVE
+1579298400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	1.5	21000.0	ACTIVE
+1579298460000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579361400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	37000.0	12123434	70000.0	ACTIVE	4.0	21000.0	ACTIVE
+1579505400000	a1	c2	sa1	Jakarta	anthony@anotherbank.com	Anthony	87654321	0.0	12123434	70000.0	ACTIVE	4.0	33000.0	ACTIVE
